@@ -10,7 +10,7 @@ export default function Home() {
         fontWeight: "bold",
       }}
     >
-      Jello World 👋
+      Zello World 👋
     </main>
   );
 }
