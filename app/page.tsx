@@ -10,7 +10,7 @@ export default function Home() {
         fontWeight: "bold",
       }}
     >
-      Hello World 👋
+      Bello World 👋
     </main>
   );
 }
