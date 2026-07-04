@@ -8,28 +8,6 @@ export default function PachkanCalculator() {
   const [statusError, setStatusError] = useState(false);
   const [result, setResult] = useState(null);
 
-  function parsePDTTime(timeString) {
-    const currentDateString = new Date().toISOString().split("T")[0];
-    const dateTimeString = `${currentDateString} ${timeString}`;
-    const date = new Date(dateTimeString);
-
-    if (isNaN(date.getTime())) {
-      const [time, modifier] = timeString.split(" ");
-      let [hours, minutes] = time.split(":").map(Number);
-
-      if (modifier === "PM" && hours !== 12) hours += 12;
-      if (modifier === "AM" && hours === 12) hours = 0;
-
-      const utcDate = new Date(currentDateString);
-      utcDate.setUTCHours(hours + 7);
-      utcDate.setUTCMinutes(minutes);
-
-      return utcDate;
-    }
-
-    return date;
-  }
-
   function parseTime(timeString) {
     const timeParts = timeString.match(/(\d{1,2}):(\d{2})/);
 
