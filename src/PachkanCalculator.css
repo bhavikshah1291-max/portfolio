@@ -107,6 +107,7 @@ button:hover {
 .secondary-btn {
   background: #f7efe2;
   color: var(--text);
+  margin-top:10px;
 }
 
 #locationStatus {
@@ -143,6 +144,12 @@ button:hover {
   margin: 24px 0 8px;
   font-size: 18px;
   color: var(--accent-dark);
+}
+.mode.active {
+  background: #afb4be; /* medium-dark gray */
+  color: white;
+  border-color: #afb4be;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.12);
 }
 
 @media (max-width: 480px) {
