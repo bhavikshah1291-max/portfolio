@@ -10,7 +10,6 @@ export default function PachkanCalculator() {
 
   function parseTime(timeString) {
     const timeParts = timeString.match(/(\d{1,2}):(\d{2})/);
-
     if (!timeParts) return null;
 
     const hours = parseInt(timeParts[1], 10);
@@ -51,9 +50,10 @@ export default function PachkanCalculator() {
     setStatusError(isError);
   }
 
-  function calculatePrahar() {
-    const sunriseDate = parseTime(sunrise.trim());
-    const sunsetDate = parseTime(sunset.trim());
+ 
+  function calculatePrahar(sunriseInput = sunrise, sunsetInput = sunset) {
+    const sunriseDate = parseTime(sunriseInput.trim());
+    const sunsetDate = parseTime(sunsetInput.trim());
 
     if (!sunriseDate || !sunsetDate) {
       alert("Please enter valid times for both sunrise and sunset.");
@@ -127,16 +127,16 @@ export default function PachkanCalculator() {
         throw new Error("Missing sunrise/sunset.");
       }
 
-      setSunrise(formatTimeInput(new Date(sunriseTime)));
-      setSunset(formatTimeInput(new Date(sunsetTime)));
+      const newSunrise = formatTimeInput(new Date(sunriseTime));
+      const newSunset = formatTimeInput(new Date(sunsetTime));
 
-      updateLocationStatus(
-        "Sunrise and sunset time filled from your location."
-      );
+      setSunrise(newSunrise);
+      setSunset(newSunset);
 
-      setTimeout(() => {
-        calculatePrahar();
-      }, 0);
+      updateLocationStatus("Sunrise and sunset time filled from your location.");
+
+      
+      calculatePrahar(newSunrise, newSunset);
     } catch (error) {
       console.error(error);
       updateLocationStatus(
@@ -156,7 +156,6 @@ export default function PachkanCalculator() {
       </p>
 
       <label>Sunrise Time (HH:MM, 24-hour format)</label>
-
       <input
         value={sunrise}
         onChange={(e) => setSunrise(e.target.value)}
@@ -164,7 +163,6 @@ export default function PachkanCalculator() {
       />
 
       <label>Sunset Time (HH:MM, 24-hour format)</label>
-
       <input
         value={sunset}
         onChange={(e) => setSunset(e.target.value)}
@@ -179,7 +177,7 @@ export default function PachkanCalculator() {
           Use My Location
         </button>
 
-        <button className="secondary-btn" onClick={calculatePrahar}>
+        <button className="secondary-btn" onClick={() => calculatePrahar()}>
           Calculate
         </button>
       </div>
