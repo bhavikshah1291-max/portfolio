@@ -184,13 +184,14 @@ export default function PachkanCalculator() {
         </button>
       </div>
 
-      <p className="subtitle">
-        Discover the Navkarshi and Pachkan timings from your sunrise and sunset
-        values.
-      </p>
+     
 
       {/* AUTO MODE */}
       {mode === "auto" && (
+        <>
+         <p className="subtitle">
+        Discover the Navkarshi Chovair and all Pachkan timings from one click
+      </p>
         <div className="auto-section">
           <button
             className="primary-btn"
@@ -211,10 +212,16 @@ export default function PachkanCalculator() {
             )}
           </button>
         </div>
+        </>
       )}
 
       {/* MANUAL MODE */}
       {mode === "manual" && (
+         <>
+         <p className="subtitle">
+         Discover the Navkarshi and Pachkan timings from your city's sunrise and sunset
+        values.
+      </p>
         <div className="manual-section">
           <label>Sunrise Time (HH:MM, 24-hour format)</label>
           <input
@@ -238,6 +245,7 @@ export default function PachkanCalculator() {
             Calculate
           </button>
         </div>
+        </>
       )}
 
       <p
