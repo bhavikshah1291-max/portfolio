@@ -142,6 +142,8 @@ export default function PachkanCalculator() {
           geoData.address?.town ||
           geoData.address?.village ||
           geoData.address?.county ||
+          geoData.address?.city_district||
+          geoData.address?.country||
           "Unknown location";
 
         setCity(cityName);
