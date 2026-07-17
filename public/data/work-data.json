@@ -1,0 +1,140 @@
+{
+  "workData": [
+    {
+      "client": "Fortinet Inc.",
+       "image": "/images/work/Fortinet-Logo.png",
+      "designation": "Senior Frontend Engineer",
+      "duration": "Aug 2021 - Present",
+      "location": "Sunnyvale, California",
+      "projects": [
+        {
+          "title": "Firewall ROI Calculator",
+          "description": "Architected and independently developed a Next.js and React application that enables customers to calculate ROI, Total Cost of Ownership (TCO), Payback Period, and recommended Fortinet firewall sizing using reusable calculation engines and server-side rendering.",
+          "technologies": [
+            "React",
+            "Next.js",
+            "TypeScript",
+            "Tailwind CSS",
+            "SSR"
+          ],
+          "link": "https://www.fortinet.com/firewall-roi-calculator"
+        },
+        {
+          "title": "Product Carbon Footprint Calculator",
+          "description": "Developed an interactive application using React, Redux Toolkit, and D3.js to visualize product-level carbon footprint data while significantly improving application performance through lazy loading and computation caching.",
+          "technologies": [
+            "React",
+            "Redux Toolkit",
+            "D3.js",
+            "TypeScript"
+          ],
+          "link": "https://www.fortinet.com/corporate/about-us/corporate-social-responsibility/product-carbon-footprint-calculator"
+        },
+        {
+          "title": "Firewall Upgrade Advisor",
+          "description": "Built a customer-facing application that recommends the most suitable firewall upgrade based on the customer's existing deployment and business requirements.",
+          "technologies": [
+            "React",
+            "TypeScript",
+            "REST API"
+          ],
+          "link": "https://www.fortinet.com/products/next-generation-firewall/upgrade/advisor"
+        },
+        {
+          "title": "OT Evaluation Tool",
+          "description": "Created an end-to-end security assessment platform allowing customers to evaluate OT security posture and instantly generate branded reports.",
+          "technologies": [
+            "React",
+            "TypeScript",
+            "REST API"
+          ],
+          "link": "https://www.fortinet.com/resources/assessments/otsecurityposture"
+        }
+      ]
+    },
+    {
+      "client": "Kaiser Permanente",
+       "image": "/images/work/Kaiser-Permanente-Logo.png",
+      "designation": "Frontend Developer",
+      "duration": "Feb 2018 - Aug 2021",
+      "location": "Pleasanton, California",
+      "projects": [
+        {
+          "title": "NextGen Dashboard",
+          "description": "Developed a real-time React dashboard for appointment scheduling and room management using GraphQL and WebSockets.",
+          "technologies": [
+            "React",
+            "GraphQL",
+            "WebSockets",
+            "Ant Design"
+          ],
+          "link": ""
+        },
+        {
+          "title": "Health Plan Sales Application",
+          "description": "Developed Kaiser Permanente's health plan enrollment application by integrating Angular with Adobe Experience Manager (AEM), implementing secure checkout workflows and scalable content delivery.",
+          "technologies": [
+            "Angular",
+            "AEM",
+            "Node.js",
+            "Express",
+            "PostgreSQL"
+          ],
+          "link": "https://apply-individual-family.kaiserpermanente.org/shopplan"
+        }
+      ]
+    },
+     {
+      "client": "Kohl's",
+       "image": "/images/work/Kohls-Logo.webp",
+      "designation": "Software Engineer",
+      "duration": "Jul 2017 - Jan 2018",
+      "location": "Milpitas, California",
+      "projects": [
+        {
+          "title": "E-Commerce Service Center",
+          "description": "Developed a real-time React dashboard for appointment scheduling and room management using GraphQL and WebSockets.",
+          "technologies": [
+            "React",
+            "GraphQL",
+            "WebSockets",
+            "Ant Design"
+          ],
+          "link": ""
+        }
+      ]
+    },
+      {
+      "client": "American Express",
+       "image": "/images/work/logo.png",
+      "designation": "Frontend Developer",
+      "duration": "Jul 2016 - June 2017",
+      "location": "Phoenix, Arizona",
+      "projects": [
+        {
+          "title": "AMEX API portal",
+          "description": "Developed a real-time React dashboard for appointment scheduling and room management using GraphQL and WebSockets.",
+          "technologies": [
+            "React",
+            "GraphQL",
+            "WebSockets",
+            "Ant Design"
+          ],
+          "link": "https://developer.americanexpress.com/home"
+        },
+        {
+          "title": "Internal Dev Portal",
+          "description": "Developed Kaiser Permanente's health plan enrollment application by integrating Angular with Adobe Experience Manager (AEM), implementing secure checkout workflows and scalable content delivery.",
+          "technologies": [
+            "Angular",
+            "AEM",
+            "Node.js",
+            "Express",
+            "PostgreSQL"
+          ],
+          "link": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "contactBar": {
+    "contactItems": [
+      {
+        "type": "email",
+        "label": "About Me",
+        "icon": "/images/icon/mail-icon.svg",
+        "sectionId": "about-me"
+      },
+      {
+        "type": "phone",
+        "label": "Career Journey",
+        "icon": "/images/icon/call-icon.svg",
+        "sectionId": "experience"
+      },
+      {
+        "type": "website",
+        "label": "Education & Skills",
+        "icon": "/images/icon/web-icon.svg",
+        "sectionId": "education-skills"
+      },
+      {
+        "type": "website",
+        "label": "Work Career Journey",
+        "icon": "/images/icon/web-icon.svg",
+        "sectionId": "latest-work"
+      },
+      {
+        "type": "website",
+        "label": "Contact Me",
+        "icon": "/images/icon/web-icon.svg",
+        "sectionId": "contact-me"
+      }
+    ],
+    "socialItems": [
+       {
+        "platform": "linkedin",
+        "icon": "/images/icon/linkedin-icon.svg",
+        "link": "https://www.linkedin.com/in/bhavik-shah-172b25143/"
+      },
+      {
+        "platform": "github",
+        "icon": "/images/icon/github.png",
+        "link": "https://github.com/bhasha102"
+      },
+     
+      {
+        "platform": "facebook",
+        "icon": "/images/icon/facebook-icon.svg",
+        "link": "https://facebook.com/bhasha102"
+      }
+    ]
+  },
+  "educationData": {
+    "education": [
+      {
+        "title": "Master of Science in Computer Science 2014-2016",
+        "description": "California State University Long Beach, CA (3.7 GPA)"
+      },
+      {
+        "title": "Bachelor of Engineering in Computer Engineering 2009-2013",
+        "description": "University of Mumbai, India (3.5 GPA)"
+      }
+      
+    ],
+    "skills": [
+      {
+        "name": "JavaScript",
+        "icon": "/images/home/education-skill/js-logo.png",
+        "rating": 5
+      },
+      {
+        "name": "Typescript",
+        "icon": "/images/home/education-skill/typescript.png",
+        "rating": 5
+      },
+      {
+        "name": "React",
+        "icon": "/images/home/education-skill/react-logo.png",
+        "rating": 5
+      },
+      {
+        "name": "Angular",
+        "icon": "/images/home/education-skill/angular-logo.png",
+        "rating": 4
+      },
+      {
+        "name": "Next.js",
+        "icon": "/images/home/education-skill/next-logo.png",
+        "rating": 4
+      },
+      {
+        "name": "Node.js",
+        "icon": "/images/home/education-skill/node-logo.png",
+        "rating": 3
+      }
+    ]
+  },
+  "contactLinks": {
+    "socialLinks": [
+      {
+        "title": "LinkedIn",
+        "href": "https://www.linkedin.com/in/bhavik-shah-172b25143/"
+      },
+      {
+        "title": "GitHub",
+        "href": "https://github.com/bhasha102"
+      },
+      {
+        "title": "Facebook",
+        "href": "https://www.facebook.com/bhasha102"
+      }
+      
+    ],
+    "contactInfo": [
+      {
+        "type": "email",
+        "label": "bhavik.shah.1291@gmail.com",
+        "link": "mailto:bhavik.shah.1291@gmail.com"
+      },
+      {
+        "type": "phone",
+        "label": "+1(562)608-6628",
+        "link": "tel:+15626086628"
+      }
+    ]
+  }
+}
