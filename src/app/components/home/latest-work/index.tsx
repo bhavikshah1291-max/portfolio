@@ -5,11 +5,20 @@ import Image from "next/image";
 import { useEffect, useState } from "react";
 import Modal from "../../common/Modal";
 
+interface Project {
+  title: string;
+  description: string;
+  technologies: string[];
+  link: string;
+}
+
 interface Work {
   client: string;
   image: string;
-  description: string;
-  technologies?: string[];
+  designation: string;
+  duration: string;
+  location: string;
+  projects: Project[];
 }
 
 const LatestWork = () => {
