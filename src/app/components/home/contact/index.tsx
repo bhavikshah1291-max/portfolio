@@ -74,7 +74,6 @@ const Contact = () => {
         <div className="pt-16 md:pt-32 pb-20">
           <div className="flex items-center justify-between gap-2 border-b border-black pb-7 mb-9 md:mb-16">
             <h2>Contact Me</h2>
-            <p className="text-xl text-orange-500">( 05 )</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <form onSubmit={handleSubmit}>
@@ -160,22 +159,7 @@ const Contact = () => {
                 </button>
               </div>
             </form>
-            <div className="flex flex-col sm:flex-row md:flex-col justify-between gap-5 md:gap-20 items-center md:items-end">
-              <div className="flex flex-wrap flex-row md:flex-col items-start md:items-end gap-4 md:gap-6">
-                {contactData?.socialLinks?.map((value: any, index: any) => {
-                  return (
-                    <div key={index}>
-                      <Link
-                        className="text-base sm:text-lg font-normal text-secondary hover:text-primary"
-                        target="_blank"
-                        href={value?.href}
-                      >
-                        {value?.title}
-                      </Link>
-                    </div>
-                  );
-                })}
-              </div>
+            <div className="flex flex-col items-center md:items-end gap-5 md:gap-20">
               <div className="flex flex-wrap justify-center gap-5 lg:gap-11 items-end">
                 {contactData?.contactInfo?.map((value: any, index: any) => {
                   return (

@@ -1,6 +1,8 @@
 "use client";
 
 import Link from "next/link";
+import { useEffect, useState } from "react";
+import { createPortal } from "react-dom";
 
 interface Project {
   title: string;
@@ -25,15 +27,33 @@ interface ModalProps {
 }
 
 const Modal = ({ isOpen, onClose, work }: ModalProps) => {
-  if (!isOpen || !work) return null;
+  const [isMounted, setIsMounted] = useState(false);
 
-  return (
+  useEffect(() => {
+    setIsMounted(true);
+    return () => setIsMounted(false);
+  }, []);
+
+  useEffect(() => {
+    if (!isOpen) return;
+
+    const previousOverflow = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+
+    return () => {
+      document.body.style.overflow = previousOverflow;
+    };
+  }, [isOpen]);
+
+  if (!isOpen || !work || !isMounted) return null;
+
+  return createPortal(
     <div
-      className="fixed inset-0 z-1000 flex items-center justify-center bg-black/60 p-5"
+      className="fixed inset-0 z-1000 flex items-center justify-center overflow-y-auto bg-black/60 p-4 md:p-5"
       onClick={onClose}
     >
       <div
-        className="relative w-full max-w-5xl max-h-[90vh] overflow-y-auto rounded-2xl bg-white shadow-2xl"
+        className="relative my-auto w-full max-w-5xl max-h-[90vh] overflow-y-auto rounded-2xl bg-white shadow-2xl"
         onClick={(e) => e.stopPropagation()}
       >
         {/* Close Button */}
@@ -110,7 +130,8 @@ const Modal = ({ isOpen, onClose, work }: ModalProps) => {
           </div>
         </div>
       </div>
-    </div>
+    </div>,
+    document.body
   );
 };
 

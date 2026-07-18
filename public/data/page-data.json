@@ -4,31 +4,31 @@
       {
         "type": "email",
         "label": "About Me",
-        "icon": "/images/icon/mail-icon.svg",
+        "icon": "/images/icon/profile-icon.svg",
         "sectionId": "about-me"
       },
       {
         "type": "phone",
         "label": "Career Journey",
-        "icon": "/images/icon/call-icon.svg",
+        "icon": "/images/icon/briefcase-icon.svg",
         "sectionId": "experience"
       },
       {
         "type": "website",
         "label": "Education & Skills",
-        "icon": "/images/icon/web-icon.svg",
+        "icon": "/images/icon/graduation-icon.svg",
         "sectionId": "education-skills"
       },
       {
         "type": "website",
-        "label": "Work Career Journey",
-        "icon": "/images/icon/web-icon.svg",
+        "label": "Work Experience",
+        "icon": "/images/icon/folder-icon.svg",
         "sectionId": "latest-work"
       },
       {
         "type": "website",
         "label": "Contact Me",
-        "icon": "/images/icon/web-icon.svg",
+        "icon": "/images/icon/chat-icon.svg",
         "sectionId": "contact-me"
       }
     ],
