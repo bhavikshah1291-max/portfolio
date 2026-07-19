@@ -48,21 +48,20 @@ const LatestWork = () => {
         <div className="container">
           <div className="py-16 xl:py-32">
             <div className="mb-16 flex items-center justify-between border-b border-black pb-7">
-              <h2>Work Experience</h2>
+              <h2>Featured Projects</h2>
             </div>
 
             <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
               {workData.map((work, index) => (
                 <ScrollReveal key={index} delay={index * 70}>
                   <div className="group">
-                    <div className="relative overflow-hidden rounded-lg">
+                    <div className="relative min-h-[260px] overflow-hidden rounded-lg md:min-h-[400px]">
                       <Image
                         src={getImgPath(work.image)}
                         alt={work.client}
                         width={570}
                         height={414}
-                        style={{ backgroundColor: "white" }}
-                        className="w-full rounded-lg object-cover"
+                        className="h-full min-h-[260px] w-full rounded-lg bg-white object-contain md:min-h-[400px] md:object-cover"
                       />
 
                       <button

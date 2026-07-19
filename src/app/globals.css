@@ -28,6 +28,34 @@ background-color: #fe4300;
       z-index: 1000;
 }
 
+.hero-fade-up,
+.hero-fade-right {
+  animation-duration: 0.9s;
+  animation-fill-mode: both;
+  animation-timing-function: cubic-bezier(0.22, 1, 0.36, 1);
+  will-change: transform, opacity;
+}
+
+.hero-fade-up {
+  animation-name: hero-fade-up;
+}
+
+.hero-fade-right {
+  animation-name: hero-fade-right;
+}
+
+.hero-delay-1 {
+  animation-delay: 0.08s;
+}
+
+.hero-delay-2 {
+  animation-delay: 0.18s;
+}
+
+.hero-delay-3 {
+  animation-delay: 0.28s;
+}
+
 
 @keyframes wave-animation {
     0% { transform: rotate( 0.0deg) }
@@ -38,6 +66,30 @@ background-color: #fe4300;
    50% { transform: rotate(10.0deg) }
    60% { transform: rotate( 0.0deg) } 
   100% { transform: rotate( 0.0deg) }
+}
+
+@keyframes hero-fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(28px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes hero-fade-right {
+  from {
+    opacity: 0;
+    transform: translateX(36px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
 
@@ -93,6 +145,14 @@ background-color: #fe4300;
 
   p {
     @apply text-base text-secondary;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-fade-up,
+  .hero-fade-right,
+  .wave {
+    animation: none !important;
   }
 }
 

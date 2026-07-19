@@ -65,11 +65,13 @@ const Modal = ({ isOpen, onClose, work }: ModalProps) => {
           ×
         </button>
 
-        <div className="p-10">
+        <div className="p-6 md:p-10">
 
           {/* Company */}
 
-          <h2>{work.client}</h2>
+          <h2 className="text-3xl font-semibold leading-tight md:text-5xl">
+            {work.client}
+          </h2>
 
           <div className="mt-2 flex flex-wrap gap-3 text-secondary">
 
@@ -94,7 +96,9 @@ const Modal = ({ isOpen, onClose, work }: ModalProps) => {
               >
                 <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-3">
 
-                  <h4>{project.title}</h4>
+                  <h4 className="text-xl font-semibold md:text-3xl">
+                    {project.title}
+                  </h4>
 
                   {project.link && (
                     <Link

@@ -20,14 +20,14 @@ const ExperienceSec = () => {
             title: "Software Developer",
             company: "Kohl’s",
             type: "Milpitas, USA",
-            description: "Led the migration of Kohl’s E-Commerce Service Center from Oracle ATG to a React application, enabling agents to efficiently place orders on behalf of customers. Managed the full development lifecycle including architecture, implementation, testing, deployment, and post-launch optimization. Built scalable backend services using Node.js and Express and developed custom agent dashboards with role-based access control (ACL), improving operational efficiency, security, and data accessibility."
-        },
+            description: "Led the migration of Kohl's customer service platform from Oracle ATG to React, modernizing a mission-critical application used by support agents to place customer orders. Delivered scalable full-stack solutions with React, Node.js, and Express while enhancing security, performance, and operational efficiency through role-based access controls."
+            },
          {
             year: "2016-2017",
             title: "Front End Developer",
             company: "American Express",
             type: "Phoenix, USA",
-            description: "Developed AMEX API portal (Live), integrating React and Angular under one platform, improving API interactions and reducing latency. Developed User management, Signup Flow, Login, Form Validation and Product module in React. Developed Internal Dev Portal from JSP to Angular 2.0, enhancing UI performance."
+            description: "Developed AMEX API portal, integrating React and Angular under one platform, improving API interactions and reducing latency. Developed User management, Signup Flow, Login, Form Validation and Product module in React. Developed Internal Dev Portal from JSP to Angular 2.0, enhancing UI performance."
         },
         {
             year: "2013-2014",

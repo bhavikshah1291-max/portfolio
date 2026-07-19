@@ -40,9 +40,16 @@ const AboutMe = () => {
               <div className="w-full lg:max-w-2xl flex-1">
                 <ScrollReveal delay={80}>
                   <p>
-                   Senior Frontend Engineer with <strong>10+ years</strong> of experience architecting, building, and scaling large-scale web applications across security, healthcare, and e-commerce domains.
-                   Deep expertise in <strong>JavaScript and TypeScript ecosystems, React, Angular, Next.js, Express.js. </strong>
-                    Proven track record of leading end-to-end development initiatives, improving application performance, and delivering solutions that enhance revenue, operational efficiency, and user experience.
+                    I specialized in building <strong>secure, scalable, and high-performance</strong> applications
+                    that solve complex engineering challenges and create meaningful <strong>business impact</strong>. 
+                     At <strong>Fortinet</strong>, I&apos;ve contributed to enterprise platforms that improve performance,
+                    enhance user experience, and support the company&apos;s global digital presence through
+                    <strong> modern architectures, cloud technologies and AI-driven capabilities</strong>.
+                    I have collaborated across teams, mentoring engineers, and designing solutions that
+                    balance technical excellence with business goals. I hold a <strong>Master of Science in
+                    Computer Science</strong> from California State University, Long Beach, where I focused on 
+                    <strong> distributed systems</strong>, scalable computing, and fault-tolerant architectures—principles
+                    that continue to shape how I build <strong>reliable, cloud-native applications</strong> today.
                   </p>
                 </ScrollReveal>
 
