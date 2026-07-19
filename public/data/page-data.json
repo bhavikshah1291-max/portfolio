@@ -21,7 +21,7 @@
       },
       {
         "type": "website",
-        "label": "Work Experience",
+        "label": "Featured Projects",
         "icon": "/images/icon/folder-icon.svg",
         "sectionId": "latest-work"
       },
@@ -55,11 +55,11 @@
     "education": [
       {
         "title": "Master of Science in Computer Science 2014-2016",
-        "description": "California State University Long Beach, CA (3.7 GPA)"
+        "description": "California State University Long Beach, CA"
       },
       {
         "title": "Bachelor of Engineering in Computer Engineering 2009-2013",
-        "description": "University of Mumbai, India (3.5 GPA)"
+        "description": "University of Mumbai, India"
       }
       
     ],

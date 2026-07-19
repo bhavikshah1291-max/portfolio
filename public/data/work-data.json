@@ -21,7 +21,7 @@
         },
         {
           "title": "Product Carbon Footprint Calculator",
-          "description": "Developed an interactive application using React, Redux Toolkit, and D3.js to visualize product-level carbon footprint data while significantly improving application performance through lazy loading and computation caching.",
+          "description": "Delivered product-level carbon footprint insights to global users by building interactive data visualizations with D3.js and managing complex application state using Redux Toolkit. Improved performance by 45% through dynamic imports and computation caching, and enhanced UI reliability by 30% through Redux-driven state architecture and optimized REST API integration.",
           "technologies": [
             "React",
             "Redux Toolkit",
@@ -32,23 +32,42 @@
         },
         {
           "title": "Firewall Upgrade Advisor",
-          "description": "Built a customer-facing application that recommends the most suitable firewall upgrade based on the customer's existing deployment and business requirements.",
+          "description": "Built a customer-facing application that recommends the most suitable firewall upgrade based on the customer's existing deployment and business requirements. Enhanced client-side data handling and state management, resulting in 40% more accurate results.",
           "technologies": [
             "React",
             "TypeScript",
-            "REST API"
+            "SASS",
+            "REST API",
+            "Jest"
           ],
           "link": "https://www.fortinet.com/products/next-generation-firewall/upgrade/advisor"
         },
         {
           "title": "OT Evaluation Tool",
-          "description": "Created an end-to-end security assessment platform allowing customers to evaluate OT security posture and instantly generate branded reports.",
+          "description": "End-to-end solution enabling clients to submit assessments and instantly receive Fortinet-branded security scores. Improved load time by 35% using React memoization and API batching, increased assessment completion by 25% through streamlined input flows and reduced form validation errors by 30%.",
           "technologies": [
             "React",
-            "TypeScript",
-            "REST API"
+            "JavaScript",
+            "CSS",
+            "Jest",
+            "Cypress"
           ],
           "link": "https://www.fortinet.com/resources/assessments/otsecurityposture"
+        },
+        {
+          "title": "Fortinet Marketing Website Redesign",
+          "description": "Led the end-to-end redesign and development of Fortinet's live marketing website revamping key pages including Homepage, Blog, Product & Solution, Labs, Cyber Glossary, and Press Releases. Delivered pixel-perfect, ADA-compliant, cross-browser compatible, and fully responsive UI from Figma designs across desktop, tablet, and mobile using CSS media queries. Implemented reusable UI components and multi-language support to enable scalable content delivery across global regions.",
+          "technologies": [
+            "HTML",
+            "CSS",
+            "Adobe Experience Manager (AEM)",
+            "SASS",
+            "JavaScript",
+            "jQuery",
+            "Figma",
+            "Jenkins"
+            ],
+          "link": "https://www.fortinet.com"
         }
       ]
     },
@@ -61,10 +80,12 @@
       "projects": [
         {
           "title": "NextGen Dashboard",
-          "description": "Developed a real-time React dashboard for appointment scheduling and room management using GraphQL and WebSockets.",
+          "description": "Built Dashboard enabling Kaiser staff to manage patient appointments, room assignments, and reduce wait times. Implemented department’s dashboard which has CRUD operations on appointments, real-time updates using WebSockets and improved room assignment logic.",
           "technologies": [
             "React",
             "GraphQL",
+            "Jest",
+            "Cypress",
             "WebSockets",
             "Ant Design"
           ],
@@ -72,11 +93,16 @@
         },
         {
           "title": "Health Plan Sales Application",
-          "description": "Developed Kaiser Permanente's health plan enrollment application by integrating Angular with Adobe Experience Manager (AEM), implementing secure checkout workflows and scalable content delivery.",
+          "description": "Developed a health plan sales application by integrating AEM with Angular 7, building checkout flow, consumer and broker dashboards, implemented session management, ACLs, security protocols, and optimized AEM content caching strategies to improve load times and scalability.",
           "technologies": [
             "Angular",
+            "SASS",
+            "Jasmine",
             "AEM",
             "Node.js",
+            "Splunk",
+            "Jenkins",
+            "K6",
             "Express",
             "PostgreSQL"
           ],
@@ -93,12 +119,12 @@
       "projects": [
         {
           "title": "E-Commerce Service Center",
-          "description": "Developed a real-time React dashboard for appointment scheduling and room management using GraphQL and WebSockets.",
+          "description": "Led the migration of Kohl’s E-Commerce Service Center from Oracle ATG to a modern React application, owning the full development lifecycle from architecture and implementation to deployment and optimization. Built scalable Node.js and Express backend services and secure agent dashboards with role-based access control, improving operational efficiency, security, and data accessibility for customer service teams.",
           "technologies": [
             "React",
-            "GraphQL",
-            "WebSockets",
-            "Ant Design"
+            "Node.js",
+            "Express",
+            "Material UI"
           ],
           "link": ""
         }
@@ -113,24 +139,22 @@
       "projects": [
         {
           "title": "AMEX API portal",
-          "description": "Developed a real-time React dashboard for appointment scheduling and room management using GraphQL and WebSockets.",
+          "description": "Developed portal integrating React and Angular under one platform, improving API interactions and reducing latency. Developed User management, Signup Flow, Login, Form Validation and Product module in React.",
           "technologies": [
             "React",
-            "GraphQL",
-            "WebSockets",
-            "Ant Design"
+            "Angular",
+            "JavaScript",
+            "TypeScript"
           ],
           "link": "https://developer.americanexpress.com/home"
         },
         {
           "title": "Internal Dev Portal",
-          "description": "Developed Kaiser Permanente's health plan enrollment application by integrating Angular with Adobe Experience Manager (AEM), implementing secure checkout workflows and scalable content delivery.",
+          "description": "Developed Internal Dev Portal from JSP to Angular 2.0, enhancing UI performance.",
           "technologies": [
             "Angular",
-            "AEM",
-            "Node.js",
-            "Express",
-            "PostgreSQL"
+            "TypeScript",
+            "SASS"
           ],
           "link": ""
         }
